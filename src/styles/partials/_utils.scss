@@ -18,6 +18,10 @@ img {
     max-width: 100%;
 }
 
+$dkgreen: #3b7552;
+$ltgreen: #218441;
+$gold: #ffbf00;
+
 @mixin displayFlex {
     display: flex;
 }
@@ -28,4 +32,9 @@ img {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+}
+
+@mixin body($fontSize) {
+    font-size: $fontSize;
+    font-family: 'Cabin', sans-serif;
 }

@@ -1,0 +1,58 @@
+.whatWeDo {
+    margin-top: 30px;
+    h2 {
+        text-align: center;
+    }
+    .serviceBox {
+        .row {
+            display: flex;
+            .service { 
+                width: 33.3%;
+                padding: 20px;
+                h3 {
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+                .image {
+                }
+            }
+        }
+    }
+}
+
+// .whatWeDo {
+//     h3 {
+//         @include heading(4rem);
+//         text-transform: capitalize;
+//         text-align: center;
+//     }
+//     .serviceContainer {
+//         @include displayFlex;
+//         flex-wrap: wrap;
+//         .box {
+//             width: 33.3%;
+//             padding: 15px;
+//             .heading {
+//                 @include displayFlex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 h4 {
+//                     @include heading(1.5rem);
+//                     font-weight: 600;
+//                 }
+//                 .container {
+//                     width: 17%;
+//                     margin: 5px;
+//                     .svg {
+//                         width: 100%;
+//                         fill:$dkgreen;
+//                     }
+//                 }
+//         }
+//         p {
+//             @include body(1.2rem);
+//             text-align: justify;
+//         }
+//     }
+//     }
+// }
